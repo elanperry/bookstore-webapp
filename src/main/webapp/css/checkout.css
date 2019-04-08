@@ -1,0 +1,53 @@
+#checkoutFormErrors{
+    color:red;
+}
+
+.textField {
+    margin: 10px;
+    align-content: left;
+}
+
+#boldSubmitButton {
+    background-color: orange;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#checkoutFormAndInfo {
+    background-color: whitesmoke;
+    border: solid black 1px;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#name-error {
+    color:red;
+    font-style: italic;
+}
+
+#address-error {
+    color:red;
+    font-style: italic;
+}
+
+#phone-error {
+    color:red;
+    font-style: italic;
+}
+
+#email-error {
+    color:red;
+    font-style: italic;
+}
+
+#ccNumber-error {
+    color:red;
+    font-style: italic;
+}
+
+#checkoutForm {
+    padding-top: 30px;
+    margin: auto;
+}

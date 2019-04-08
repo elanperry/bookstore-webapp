@@ -1,0 +1,131 @@
+#categoryPage {
+    display: flex;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+}
+
+
+#categoryNav {
+    width: 250px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background: darkgray;
+    flex-direction: column;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+#categoryMain {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: auto;
+    overflow: hidden;
+
+}
+
+#bookList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.bookTitle {
+    padding-top: 10px;
+    word-wrap: break-word;
+}
+
+.bookAuthor{
+    font-style: oblique;
+    color: orange;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.bookPrice {
+    color: green;
+    font-size: 14px;
+
+}
+
+.bookButtons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 3px;
+    padding-top: 5px;
+
+}
+
+.addToCart {
+    background-color: dimgrey;
+    color: whitesmoke;
+    cursor:pointer;
+}
+
+.addToCart:hover {
+    background-color: orange;
+}
+
+.bookImage {
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.bookImage:hover {
+    box-shadow: 0 0 30px rgba(33,33,33,2);
+}
+
+.selectedCategory {
+    color: white;
+    border: 1px solid black;
+    background-color: orange;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.unselectedCategory {
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.unselectedCategory:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: orange;
+}
+
+.unselectedCategoryLink:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.bookBlock {
+    max-width: 245px;
+}
+
+#categoryNavHeader {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    vertical-align: super;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.readNow {
+    cursor: pointer;
+}
+
+.readNow:hover {
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}

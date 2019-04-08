@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/ElanBookstore" auth="Container" type="javax.sql.DataSource"
+              maxTotal="5" maxIdle="2" maxWaitMillis="10000"
+              username="esp2572" password="9173" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://cs5244.cs.vt.edu:3306/ElanBookstoreDB"/>
+</Context>

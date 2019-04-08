@@ -1,0 +1,122 @@
+
+header {
+    background: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap-reverse;
+}
+
+#leftHeader {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    position: relative;
+    width: 400px;
+}
+#midHeader {
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#rightHeader {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+#logoText {
+    position: absolute;
+    left: 80px;
+}
+
+#searchForm {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+#searchIcon {
+    align-self: center;
+    margin-bottom: -7px;
+}
+
+#cartIconAndCount {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    border: 1px solid black;
+}
+
+#signInAndCategories {
+    display: flex;
+    align-content: flex-end;
+}
+
+#categories {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin-top: 20px;
+    background-color: black;
+    margin-right: 20px; /* Important for vertical align on mobile phones */
+}
+
+/* Add a orange background color to navbar links on hover */
+.dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-transform: capitalize;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add an orange background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

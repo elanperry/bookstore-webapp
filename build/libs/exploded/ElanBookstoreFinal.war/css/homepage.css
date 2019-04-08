@@ -1,0 +1,46 @@
+#upperHome {
+    display: flex;
+    position: relative;
+}
+
+#lowerHome {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background: whitesmoke;
+}
+
+#suggestedBookList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px auto 50px;
+}
+
+
+#banner {
+    overflow: hidden;
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#bannerText {
+    position:absolute;
+    left: 20px;
+    bottom: 1px;
+
+}
+
+#searchForm {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+/*
+#suggestedBookItem {
+    padding: 5px;
+    height: 400px;
+    width: 265px;
+}*/
